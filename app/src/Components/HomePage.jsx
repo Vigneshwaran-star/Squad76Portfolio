@@ -66,14 +66,14 @@ function HomePage  ()  {
 
     
 
-    <div className="heading bg-white w-full h-auto z-40 flex justify-center space-x-4 mt-0 dark:bg-black ">
+    <div className="heading bg-white w-full h-auto z-30 flex justify-center space-x-4 mt-0 dark:bg-black  ">
         <AnimatePresence>
           {/* conditinal should be presented for the exit to work */}
           <motion.h1 className="text-[72.5px] font-normal text-black  pr-8 dark:text-white mt-40"  initial={{x:-1000} } animate={{x:0}} exit={{x:-250}} transition={{type:"spring",duration:.5,delay:0.5,ease:"easeInOut"}}>Squad 76</motion.h1></AnimatePresence>
 
           <img src="/images/brain.png" className="w-[74px] h-[76px] mt-[175px]" alt="brain" />
 
-          <motion.img src={ !darkMode ?"/images/toothwheel.png" : "/images/toothwheel(1).png"} className="w-[88px] h-[91px] mt-44 dark:w-[80px] dark:h-[80px]" alt="" initial={{x:1000}} animate={{x:0}} whileHover={{rotate:"180deg"}} transition={{repeat:1,x:{duration:0.3,delay:0.5,type:"spring",ease:"easeInOut"},rotate:{duration:0.3,delay:.3}}} />
+          <motion.img src={ !darkMode ?"/images/toothwheel.png" : "/images/toothwheel(1).png"} className="w-[88px] h-[91px] mt-44 dark:w-[80px] dark:h-[80px] z-30" alt="" initial={{x:1000}} animate={{x:0}} whileHover={{rotate:"180deg"}} transition={{repeat:1,x:{duration:0.3,delay:0.5,type:"spring",ease:"easeInOut"},rotate:{duration:0.3,delay:.3}}} />
         </div>
        
           {/* subheading with transitions */}
@@ -83,15 +83,48 @@ function HomePage  ()  {
             <motion.img initial={{y:-500}} animate={{y:0}} transition={{duration:0.3,delay:.3}} src={!darkMode?"/images/eyes.png":"/images/eyes(1).png"} className="w-[70px] h-[70px] " alt="" />
             <h1 className="text-[72.5px] font-normal dark:text-white">Experiences</h1>
           </div>
-         
           <div className="row2 flex justify-center">
             <motion.img initial={{x:-1000}} animate={{x:0}} transition={{type:"spring",duration:1,delay:0.7}} src={!darkMode?"/images/line.png":"/images/line(1).png"} className="w-[238px] h-[8px] " alt="" />
             <h1 className="text-[84.1px] font-normal dark:text-white">of our Squad</h1>
             <motion.img initial={{x:1000}} animate={{x:0}} transition={{type:"spring",duration:1,delay:0.7}} src={!darkMode?"/images/line.png":"/images/line(1).png"} className="w-[238px] h-[8px] " alt="" />
           </div>
           </div>
-           
-           
+            {/* Mentors imges with their githublink and linked link */}
+           <div className="flex w-full bg-white justify-center space-x-40 dark:bg-black pt-40 ">
+            
+           <div className="w-[300px] h-[300px] relative bg-[#E8E5DA] rounded-lg">
+            <h1 className='font-semibold flex text-[35px] justify-center'>Ajay</h1>
+            <div className='flex flex-col absolute top-0 right-4 items-center space-y-4'>
+            <img src="/images/Line 10 (Stroke).png" className='w-1 h-40 ' alt="" />
+            <a href=""><img src="/images/Github (1).png" className='p-2 rounded-full w-10 h-10  bg-black  hover:scale-110' alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/ajay-balasubramaniam1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="/images/Linkedin (1).png" className="p-2 rounded-lg h-10 w-10 bg-black hover:scale-110" alt="" /></a>
+            
+            </div>
+          
+            <div className="absolute bottom-0 w-[200px] h-[250px] left-0">
+              <img src={darkMode?"/images/Ajay2.png":"/images/Ajay.png"} className='w-full h-full' alt="" />
+            </div>
+            </div>
+            
+           <div className="w-[300px] h-[300px] relative bg-[#E8E5DA] rounded-lg">
+           <h1 className='font-semibold flex text-[35px] justify-center'>Sibishree</h1>
+            <div className='flex flex-col absolute top-0 right-4 items-center space-y-4'>
+            <img src="/images/Line 10 (Stroke).png" className='w-1 h-40 ' alt="" />
+            <a href=""><img src="/images/Github (1).png" className='p-2 rounded-full w-10 h-10  bg-black hover:scale-110' alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/sibishree-maragathavel-a6b76825b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="/images/Linkedin (1).png" className="p-2 rounded-lg h-10 w-10 bg-black hover:scale-110" alt="" /></a>
+            
+            </div>
+          
+            <div className="absolute bottom-0 w-[200px] h-[250px] left-0">
+              <img src={darkMode?"/images/sibishreeimage-removebg-preview(1).png":"/images/sibishreeimage-removebg-preview.png"} className='w-full h-full' alt="" />
+            </div>
+            </div>
+
+
+           </div>
+
        
        </>
   )
