@@ -90,7 +90,8 @@ function HomePage  ()  {
             <motion.img initial={{x:1000}} animate={{x:0}} transition={{type:"spring",duration:1,delay:0.7}} src={!darkMode?"/images/line.png":"/images/line(1).png"} className="w-[238px] h-[8px] " alt="" />
           </div>
           </div>
-      
+           
+           
        
        </>
   )
