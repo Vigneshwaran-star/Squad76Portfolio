@@ -6,6 +6,8 @@ import  Moon  from '../Components/Moon.jsx';
 import  Sun from '../Components/Sun.jsx';
 import { useScroll,motion,useSpring,useTransform,AnimatePresence} from "framer-motion";
 import MemberCards from './MemberCards.jsx';
+// import Sibishree from './Sibishree.jsx';
+import { Link } from 'react-router';
 function HomePage  ()  {
   // Implementing dark mode
   const [darkMode ,setDarkmode]=useState(false);     // setting initially darkmode as false
@@ -42,7 +44,7 @@ function HomePage  ()  {
      }}>
 </motion.div>
      {/* nav bar with sticky position which stays stilol when scrolling */}
-    <nav className='flex justify-between  w-full sticky top-0  border-b-2 border-black bg-white dark:bg-black dark:border-white p-4'>
+    <nav className='flex justify-between  w-full sticky top-0  border-b-2 border-black bg-white dark:bg-black dark:border-white p-4 z-50'>
     <img src="/images/squadlogo.png" alt="Logo" className="h-12 w-auto cursor-pointer" />
 
 
@@ -102,10 +104,10 @@ function HomePage  ()  {
             <a href="https://www.linkedin.com/in/ajay-balasubramaniam1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="/images/Linkedin (1).png" className="p-2 rounded-lg h-10 w-10 bg-black hover:scale-110" alt="" /></a>
             
             </div>
-          
+          <Link to={'/ajay'}>
             <div className="absolute bottom-0 w-[200px] h-[250px] left-0">
               <img src={darkMode?"/images/Ajay2.png":"/images/Ajay.png"} className='w-full h-full' alt="" />
-            </div>
+            </div></Link>
             </div>
             
            <div className="w-[300px] h-[300px] relative bg-[#E8E5DA] rounded-lg">
@@ -117,10 +119,10 @@ function HomePage  ()  {
             <a href="https://www.linkedin.com/in/sibishree-maragathavel-a6b76825b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="/images/Linkedin (1).png" className="p-2 rounded-lg h-10 w-10 bg-black hover:scale-110" alt="" /></a>
             
             </div>
-          
+          <Link to={'/sibishree'}>
             <div className="absolute bottom-0 w-[200px] h-[250px] left-0">
               <img src={darkMode?"/images/sibishreeimage-removebg-preview(1).png":"/images/sibishreeimage-removebg-preview.png"} className='w-full h-full' alt="" />
-            </div>
+            </div></Link>
             </div>
 
 
