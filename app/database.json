@@ -1,0 +1,31 @@
+{
+    "members": [
+      { "id": 1, "name": "Aakash", "whiteBgimg": "app/public/images/aakash.png", "github": "https://github.com/Vigneshwaran-star/Vigneshwaran-star","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/" , "blackBgimg": "app/public/images/aakash.png"},
+      { "id": 2, "name": "Abdullah", "whiteBgimg": "app/public/images/abdullah.png", "github": "https://github.com/harishb2006","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/" , "blackBgimg": "app/public/images/aakash.png"},
+      { "id": 3, "name": "Abhinivesh", "whiteBgimg": "app/public/images/abhi.png", "github": "https://github.com/harishb2006","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/" , "blackBgimg": "app/public/images/aakash.png"},
+      { "id": 4, "name": "Akarshana", "whiteBgimg": "app/public/images/akshad.png", "github": "https://github.com/harishb2006","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png" },
+      { "id": 5, "name": "Akshad", "whiteBgimg": "app/public/images/blessibng.png", "github": "https://github.com/harishb2006","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png" },
+      { "id": 6, "name": "Balaji", "whiteBgimg": "app/public/images/balaji.png", "github": "https://github.com/harishb2006","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/" , "blackBgimg": "app/public/images/aakash.png"},
+      { "id": 7, "name": " Joshua", "whiteBgimg": "app/public/images/blessibng.png", "github": "https://github.com/Vigneshwaran-star/Vigneshwaran-star","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/" , "blackBgimg": "app/public/images/aakash.png"},
+      { "id": 8, "name": "Che", "whiteBgimg": "app/public/images/che.png", "github": "https://github.com/harishb2006","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png" },
+      { "id": 9, "name": "Deva Harsheni", "whiteBgimg": "app/public/images/deva.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"},    
+      { "id": 10, "name": "Dharun Kumar", "whiteBgimg": "app/public/images/dharun.png", "github": "https://github.com/harishb2006","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png" },
+      { "id": 11, "name": "Harish", "whiteBgimg": "app/public/images/harish.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"}  ,  
+      { "id": 12, "name": "Jandy Roach", "whiteBgimg": "app/public/images/jandy.png", "github": "https://github.com/harishb2006","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png" },
+      { "id": 13, "name": "Razy", "whiteBgimg": "app/public/images/razy.png", "github": "https://github.com/harishb2006","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/" , "blackBgimg": "app/public/images/aakash.png"},    
+      { "id": 14, "name": "Nandhini", "whiteBgimg": "app/public/images/nandhini.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"},
+      { "id": 15, "name": "NarendraKumar", "whiteBgimg": "app/public/images/narendhar.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"}  ,  
+      { "id": 16, "name": "Pawin", "whiteBgimg": "app/public/images/pawin.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"},
+      { "id": 17, "name": "Rahul", "whiteBgimg": "app/public/images/rahul.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"},    
+      { "id": 18, "name": "Reeban Austrive", "whiteBgimg": "app/public/images/reeban.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"},
+      { "id": 19, "name": "Sandanam", "whiteBgimg": "app/public/images/sandy.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"} ,  
+      { "id": 20, "name": "Sriman", "whiteBgimg": "app/public/images/sriman.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png" },
+      { "id": 21, "name": "Suba Dharshini", "whiteBgimg": "app/public/images/suba.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"},    
+      { "id": 22, "name": "Vignesh", "whiteBgimg": "app/public/images/vigensh a.png", "github": "https://github.com/harishb2006","linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png" },
+      { "id": 23, "name": "Vigneshwaran", "whiteBgimg": "app/public/images/vigneshwaran.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"},   
+      { "id": 24, "name": "Vishal", "whiteBgimg": "app/public/images/vishal.png", "github": "https://github.com/harishb2006" ,"linkedin":"https://www.linkedin.com/in/vigneshwaran-p-94737132a/", "blackBgimg": "app/public/images/aakash.png"}
+     
+      
+    ]
+  }
+  
