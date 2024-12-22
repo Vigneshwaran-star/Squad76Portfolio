@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
-const ShuffleHero2 = () => {
+const ShuffleHero = () => {
   return (
     
     <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
-       <ShuffleGrid />
+      <ShuffleGrid />
       <div>
         
         <h3 className="text-4xl md:text-6xl font-semibold">
@@ -17,7 +17,6 @@ const ShuffleHero2 = () => {
         </p>
         
       </div>
-   
     </section>
   );
 };
@@ -67,7 +66,7 @@ const generateSquares = () => {
       transition={{ duration: 1.5, type: "spring" }}
       className="w-full h-full"
       style={{
-        backgroundImage: url(${sq.src}),
+        backgroundImage: url(`${sq.src}`),
         backgroundSize: "cover",
       }}
     ></motion.div>
@@ -97,4 +96,4 @@ const ShuffleGrid = () => {
   );
 };
 
-export default ShuffleHero2;
+export default ShuffleHero;

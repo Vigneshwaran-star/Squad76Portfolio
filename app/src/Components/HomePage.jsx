@@ -150,14 +150,22 @@ function HomePage  ()  {
           </div>
 <div className='dark:bg-black '>
           <div className="memoprojects flex justify-center space-x-40 pt-44   ">
+              <Link to={'/memories'}>
             <motion.button whileTap={{scale:.95}} className="flex w-[371px] h-[501px] border-2 border-black rounded-lg relative flex-shrink space-x-10 flex-wrap shadow-2xl shadow-black drop-shadow-lg dark:bg-white">
               <h1 className="text-[70px] left-4 absolute bottom-44 flex-wrap font-merienda">Memories</h1>
-            </motion.button>
+            </motion.button></Link>
             <motion.button whileTap={{scale:.95}} className="flex w-[371px] h-[501px] border-2 border-black rounded-lg relative shadow-2xl drop-shadow-2xl shadow-black dark:bg-white ">
               <h1 className="text-[70px] absolute bottom-44 left-4 font-rubikGlitch">Projects</h1>
             </motion.button>
           </div>
           </div>
+          <div className="footer w-full flex flex-col space-y-4 pt-10 dark:bg-black">
+    <img src="/images/Line 10 (Stroke).png" className="h-1 w-full px-10" alt="" />
+    <div className="flex space-x-10 px-10">
+      <a href=""><img className="w-10 h-10" src="/images/insta.png" alt="" /></a>
+      <a href=""><img className=" w-10 h-10" src="/images/mail.png" alt="" /></a>
+      <a href=""><img className=" w-10 h-10" src="/images/Twitter.png" alt="" /></a>
+    </div> </div>
        </>
   )
 }

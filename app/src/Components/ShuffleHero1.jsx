@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
-const ShuffleHero = () => {
+const ShuffleHero1 = () => {
   return (
     
     <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
-      <ShuffleGrid />
+    
       <div>
         
         <h3 className="text-4xl md:text-6xl font-semibold">
@@ -17,6 +17,7 @@ const ShuffleHero = () => {
         </p>
         
       </div>
+      <ShuffleGrid />
     </section>
   );
 };
@@ -41,19 +42,19 @@ const shuffle = (array) => {
 const squareData = [
   {
     id: 1,
-    src: "src/assets/sqaud/IMG-20240920-WA0059.jpg",
+    src: "/images/WhatsApp Image 2024-12-21 at 4.21.46 PM.jpeg",
   },
   {
     id: 2,
-    src: "src/assets/sqaud/IMG-20240920-WA0079.jpg",
+    src: "/images/WhatsApp Image 2024-12-21 at 4.21.46 PM(2).jpeg",
   },
   {
     id: 3,
-    src: "src/assets/sqaud/IMG-20241027-WA0001.jpg",
+    src: "/images/WhatsApp Image 2024-12-21 at 4.21.46 PM(4).jpeg",
   },
   {
     id: 4,
-    src: "src/assets/sqaud/blac.jpg",
+    src: "/images/WhatsApp Image 2024-12-21 at 4.21.46 PM(5).jpeg",
   },
  
 ];
@@ -66,7 +67,7 @@ const generateSquares = () => {
       transition={{ duration: 1.5, type: "spring" }}
       className="w-full h-full"
       style={{
-        backgroundImage: url(${sq.src}),
+        backgroundImage: url(`${sq.src}`),
         backgroundSize: "cover",
       }}
     ></motion.div>
@@ -96,4 +97,4 @@ const ShuffleGrid = () => {
   );
 };
 
-export default ShuffleHero;
+export default ShuffleHero1;

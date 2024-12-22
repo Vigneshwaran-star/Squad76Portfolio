@@ -1,15 +1,13 @@
 
-import ShuffleHero from './ShuffleHero';
-import ShuffleHero1 from './ShuffleHero1';
+import ShuffleHero from './ShuffleHero.jsx';
+import ShuffleHero1 from './ShuffleHero1.jsx';
+import ShuffleHero2 from './ShuffleHero2.jsx';
 import {  motion,  useScroll, useSpring, useTransform } from 'framer-motion';
 const Memories = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress);
   const background = useTransform(scrollYProgress, [0, 1], ['rgb(100,100,100)', 'rgb(0,0,0)']);
-  // useEffect(() => {
-  //   // Scroll to the top of the page when the component is mounted
-  //   window.scrollTo(0, 0);
-  // }, []);
+
   return (
     
 
