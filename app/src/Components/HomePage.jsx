@@ -142,6 +142,22 @@ function HomePage  ()  {
 
       <LogoFlipCard/>
       </div>
+
+      <div className="experiences w-full flex-col justify-center dark:bg-black dark:text-white  ">
+            <h1 className="text-[63px] flex justify-center " id="experience">Our Experiences</h1>
+            <p className="text-[24px] flex justify-center mt-[40px] opacity-60" >Explore the stories, memories, and </p>
+            <p className="text-[24px] flex justify-center opacity-60">triumphs that make our squad the best</p>
+          </div>
+<div className='dark:bg-black '>
+          <div className="memoprojects flex justify-center space-x-40 pt-44   ">
+            <motion.button whileTap={{scale:.95}} className="flex w-[371px] h-[501px] border-2 border-black rounded-lg relative flex-shrink space-x-10 flex-wrap shadow-2xl shadow-black drop-shadow-lg dark:bg-white">
+              <h1 className="text-[70px] left-4 absolute bottom-44 flex-wrap font-merienda">Memories</h1>
+            </motion.button>
+            <motion.button whileTap={{scale:.95}} className="flex w-[371px] h-[501px] border-2 border-black rounded-lg relative shadow-2xl drop-shadow-2xl shadow-black dark:bg-white ">
+              <h1 className="text-[70px] absolute bottom-44 left-4 font-rubikGlitch">Projects</h1>
+            </motion.button>
+          </div>
+          </div>
        </>
   )
 }
