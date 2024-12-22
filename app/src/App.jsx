@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className={isDarkMode ? "dark" : "light"}>
-      <HomePage />
+      <HomePage/>
     </div>
   );
 }
