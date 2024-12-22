@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+  
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  .animate-scroll-left {
+    animation: scroll-left 20s linear infinite;
+  }
+  
+  .animate-scroll-right {
+    animation: scroll-right 20s linear infinite;
+  }
+  .group:hover .animate-scroll-left,
+  .group:hover .animate-scroll-right {
+    animation-play-state: paused;
+  }
+  html{
+    scroll-behavior: smooth;
+  }

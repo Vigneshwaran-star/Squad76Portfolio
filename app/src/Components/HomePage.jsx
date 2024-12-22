@@ -5,6 +5,7 @@ import  Moon  from '../Components/Moon.jsx';
 
 import  Sun from '../Components/Sun.jsx';
 import { useScroll,motion,useSpring,useTransform,AnimatePresence} from "framer-motion";
+import MemberCards from './MemberCards.jsx';
 function HomePage  ()  {
   // Implementing dark mode
   const [darkMode ,setDarkmode]=useState(false);     // setting initially darkmode as false
@@ -124,7 +125,7 @@ function HomePage  ()  {
 
 
            </div>
-
+<MemberCards className="z-10"/>
        
        </>
   )
