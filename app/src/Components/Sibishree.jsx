@@ -111,7 +111,6 @@ const  Sibishree= () => {
         <hr></hr>
         <h1 className='mt-[60px] absolute  dark:text-white'>Hello, I am Sibisree!</h1>
         <h1 className='mt-[100px] absolute h-[400px] w-[500px] dark:text-white '>
-
 I am Sibishree from Pudukkotai District, currently pursuing a B.E. in ECE at Sri Shakthi Institute of Engineering and Technology. I am skilled in Java, OOP, DBMS, networking, C, HTML, and CSS.
 
 I developed a Bus Reserving Management System using Java, OOP principles, and JDBC to record customer bookings.
@@ -119,7 +118,7 @@ I developed a Bus Reserving Management System using Java, OOP principles, and JD
 My hobbies include drawing, dancing, and traveling. I aim to secure a position in a reputed company and grow into a prominent role.
 
 </h1>
-
+        <img src={darkmode?"/images/about-me 2.png":"/images/about-me 2(1).png"} className="flex pl-[500px] pt-10 " alt="" />
 
       </div>
 
@@ -127,7 +126,7 @@ My hobbies include drawing, dancing, and traveling. I aim to secure a position i
         <h1 className='text-[30px] font-bold text-red-600'>#</h1>
         <h1 className='text-[30px] font-bold  dark:text-white' >projects</h1>
       
-       
+
 
       
        <h1 className='mt-[100px] ml-[100px] absolute text-[30px] font-semibold  dark:text-white'>
@@ -140,8 +139,11 @@ My hobbies include drawing, dancing, and traveling. I aim to secure a position i
       </div>
 
 
-      <div className='flex mt-[380px] ml-[900px] dark:bg-black'>
-        <img src="" alt="" />
+       
+      <div className=' flex space-x-11  '>
+
+        <img src="/images/chat.png" alt="" className='mt-[300px] ' />
+      <div className='flex mt-[380px] dark:bg-black'>
         <h1 className='text-[30px] font-bold text-red-600 dark:bg-black'>#</h1>
         <h1 className='text-[30px] font-bold  dark:text-white ' >Contact me!!</h1>
         <h1 className='mt-[60px] absolute dark:bg-black dark:text-white'>Hello, I am Sibishree!</h1>
@@ -150,6 +152,7 @@ My hobbies include drawing, dancing, and traveling. I aim to secure a position i
           I am interested in freelance opportunities. However, if you have other request or question, do not hesitate to contact me </h1>
 
 
+      </div>
       </div>
 
       <div className='p-[100px]'></div>
