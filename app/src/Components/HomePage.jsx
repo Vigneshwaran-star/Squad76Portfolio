@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 
 import  Moon  from '../Components/Moon.jsx';
+import LogoFlipCard from './LogoFlipCard.jsx';
 
 import  Sun from '../Components/Sun.jsx';
 import { useScroll,motion,useSpring,useTransform,AnimatePresence} from "framer-motion";
@@ -136,6 +137,10 @@ function HomePage  ()  {
           <motion.h1 initial={{opacity:0}} whileInView={{opacity:0.6}} transition={{delay:.3, type:"tween"  }} className="text-[22px] font-bold opacity-60 w-[716px] h-[272px] p-4">We are Squad 76 of Kalvium Direct-Campus—first-year learners passionate about full-stack development, programming, and innovation. Aspiring to become entrepreneurs and tech pioneers, we aim to create impactful solutions and drive a new wave of technological revolution. Together, we’re building skills, fostering creativity, and shaping the future of tech.</motion.h1>
         </div>
 
+      </div>
+      <div className='flex justify-center dark:bg-black'>
+
+      <LogoFlipCard/>
       </div>
        </>
   )
