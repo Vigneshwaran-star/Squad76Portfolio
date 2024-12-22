@@ -128,7 +128,15 @@ function HomePage  ()  {
 
            </div>
 <MemberCards className="z-10"/>
-       
+<div id="About" className="aboutUs bg-white  w-full grid-cols-1 pt-32 justify-center dark:bg-black dark:text-white">
+          
+          <h1 className="text-[65.53px] flex justify-center font-sans">About us</h1>
+        
+        <div className="flex w-full justify-center">
+          <motion.h1 initial={{opacity:0}} whileInView={{opacity:0.6}} transition={{delay:.3, type:"tween"  }} className="text-[22px] font-bold opacity-60 w-[716px] h-[272px] p-4">We are Squad 76 of Kalvium Direct-Campus—first-year learners passionate about full-stack development, programming, and innovation. Aspiring to become entrepreneurs and tech pioneers, we aim to create impactful solutions and drive a new wave of technological revolution. Together, we’re building skills, fostering creativity, and shaping the future of tech.</motion.h1>
+        </div>
+
+      </div>
        </>
   )
 }
